@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FitGuide AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="eyebrow">AI-Powered</div>
+      <h1 class="title">FIT<span>GUIDE</span></h1>
+      <p class="subtitle">Your personal fitness expert. Ask anything about muscle groups, exercises, nutrition, and training.</p>
+    </header>
+
+    <div class="input-card">
+      <div class="input-label">Your Question</div>
+      <div class="input-row">
+        <input type="text" id="question" placeholder="e.g. How do I build bigger arms?" />
+        <button id="askBtn">Ask →</button>
+      </div>
+      <div class="chips">
+        <div class="chip" data-q="Where are quadriceps located?">Quad anatomy</div>
+        <div class="chip" data-q="Best exercises for core strength?">Core strength</div>
+        <div class="chip" data-q="How to improve flexibility?">Flexibility</div>
+        <div class="chip" data-q="What is progressive overload?">Progressive overload</div>
+        <div class="chip" data-q="How much protein do I need daily?">Protein intake</div>
+      </div>
+    </div>
+
+    <div id="output-section" class="output-section hidden"></div>
+
+    <div class="footer">Powered by Gemini · Built with RAG · Your fitness data stays local</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
