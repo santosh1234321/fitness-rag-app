@@ -2,9 +2,6 @@
 
 A full-stack AI fitness assistant that answers questions about workouts, nutrition, and recovery using a custom RAG (Retrieval-Augmented Generation) pipeline.
 
-## Demo
-![FitGuide AI](https://i.imgur.com/placeholder.png)
-
 ## What is RAG?
 Instead of relying purely on an AI model's training data, RAG retrieves relevant chunks from your own document (the fitness manual) and injects them into the prompt. This means answers are grounded in your specific knowledge base, not generic AI responses.
 
